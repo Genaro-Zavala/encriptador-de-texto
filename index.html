@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="/imagenes/Logo.png" alt="logo de alura">
+    </header>
+
+    <main>
+        <section class="encriptador">
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="aviso">
+                <img src="./imagenes/aviso.svg" alt="Imagen Aviso" class="imagen-aviso">
+                <p class="informacion">Solo letras minúsculas y sin acentos </p> 
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="mensaje">            
+            <textarea class="resultado" cols="20" rows="10"></textarea>
+            <div class="mensaje-contenedor">
+                <img src="./imagenes/muneco.png" alt="Imagen munñeco" class="img-muneco">
+                <p class="texto-uno">Ningun mensaje fue encontrado</p>
+                <p class="texto-dos">Ingrese el texto que deseas encriptar o desencriptar.</p>                
+            </div>
+            
+            <button class="copiar" onclick="btnCopiar()">Copiar</button>
+                                  
+        </section>
+        
+    </main>
+<script src="/script.js"></script>    
+</body>
+</html>
