@@ -63,7 +63,6 @@ main{
     color: #0A3871;
 }
 
-
 .aviso{
     display: flex;
     flex-direction: row;
@@ -107,7 +106,6 @@ main{
     height: 67px;
     width: 328px;
     font-size: 16px;
-
 }
 
 .btn-desencriptar{
@@ -119,15 +117,15 @@ main{
     height: 67px;
     width: 328px;
     font-size: 16px;
-    text-align: center;
-  
+    text-align: center;  
 }
 
-.btn-encriptar:hover,
+.btn-encriptar:hover{
+    background-color: #1A4870;
+}
+
 .btn-desencriptar:hover{
-    margin: 0.3%;
-    width: 50%;
-    padding: 1.8%;
+    background-color: #C2D2E1;
 }
 
 
@@ -173,7 +171,6 @@ main{
     text-align: center ;
     color: #67808E;
     background: white;
-
 }
 
 .resultado{
@@ -193,7 +190,6 @@ main{
     border-top-left-radius: 32px;
     border: none;
     resize: none;
-
 }
 
 .resultado:focus{
@@ -220,9 +216,7 @@ main{
 }
 
 .copiar:hover{
-    margin: 10%;
-    width: 330px;
-    padding: 1.8%;
+    background-color: #C2D2E1;
 }
 
 
