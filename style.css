@@ -108,25 +108,7 @@ main{
     width: 328px;
     font-size: 16px;
 
-    /*
-    width: 328px ;----
-    height: 67px;-------
-    padding: 24px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-    color: white;
-    background: darkblue;
-    border: 1px solid darkblue;
-    border-radius: 24px;
-    cursor: pointer;
-    box-shadow: 0px 20px 29px -5px blue;
-    */
-
 }
-
 
 .btn-desencriptar{
     background: #D8DFE8;
@@ -135,28 +117,17 @@ main{
     color: #0A3871;
     cursor: pointer;
     height: 67px;
-    /*margin-left: 24px;*/
     width: 328px;
     font-size: 16px;
     text-align: center;
+  
+}
 
-     /*
-    width: 328px ;-------
-    height: 67px;--------
-    padding: 24px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;-----
-    line-height: 19px;
-    text-align: center;
-    color: darkblue;
-    background: white-blue;
-    border: 1px solid darkblue;
-    border-radius: 24px;
-    cursor: pointer;
-    box-shadow: 0px 20px 29px -5px blue;
-
-    */
+.btn-encriptar:hover,
+.btn-desencriptar:hover{
+    margin: 0.3%;
+    width: 50%;
+    padding: 1.8%;
 }
 
 
@@ -246,20 +217,12 @@ main{
     border: 1px solid #0A3871;
     border-radius: 24px;
     cursor: pointer;
+}
 
-/*
-    background: #D8DFE8;-----
-    border: 1px solid #0A3871;----
-    border-radius: 24px;-------
-    color: #0A3871;
-    cursor: pointer;-----
-    height: 67px;--
-    margin-left: 108px;
-    margin-top: 100px;
-    position: absolute;----
-    width: 336px;---
-    top: 650px;
-    */
+.copiar:hover{
+    margin: 10%;
+    width: 330px;
+    padding: 1.8%;
 }
 
 
@@ -328,7 +291,7 @@ main{
 
 }
 
-@media(max-width:719px){
+@media(max-width:768px){
 
     header .logo{
         width: 100%;
@@ -344,11 +307,14 @@ main{
     .botones{
         display: grid;
         gap: 21px;
+        display: flex;
+            
         
     }
 
     .mensaje{
         width: 85%;
+        margin-top: 100px;
     }
 
 }
@@ -377,12 +343,22 @@ main{
         height: 158px;
        
     }
- 
-    .mensaje{
-        width: 90%;
-        margin-left: 25px;
+     .mensaje{
+        width: 80%;
+        margin-left: 30px;
         justify-content: center;
         align-items: center;
+    }
+
+    .copiar{
+        margin-top: 180px;
+    }
+    .texto-uno{
+       font-size: 20px;
+    }
+
+    .texto-dos{
+        font-size: 14px;
     }
 }
 
